@@ -279,7 +279,8 @@ div {
     text-align: center;
     position: relative;
     top: 65%;
-    animation: coracao 2s linear 10s infinite normal forwards;
+    
+    animation: coracao 2s linear 1s infinite normal forwards;
 }
 
 @keyframes coracao {
