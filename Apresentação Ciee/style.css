@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html p {
+    font-size: 1.5rem;
+    transition-timing-function: ease;
+    color: #262223 ;
+}
+
+html h1, h2 {
+    color: #262223;
+}
+
+
+
+menu{
+padding: 10px; 
+position: fixed;
+background-color: rgba(43, 40, 36, 0.842);
+z-index: 1;
+}
+
+menu > ul{
+    display: flex; 
+    justify-content: space-around;
+    width: 100vw;
+}
+
+menu > ul > li {
+    padding: 5px;
+    background-color: #736B5D;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#262223;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+}
+
+.primeira {
+    width: 100vw;
+    background-image: url(1_resized.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-color: rgb(124, 89, 37);
+}
+
+.primeira > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.segunda {
+    width: 100vw;
+    background-image: url(2_resized.jpg);
+    background-size:cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-color: rgb(124, 89, 37);
+    position: absolute;
+    left: 100%;
+    transform: translate(0%, -100%);
+}
+
+.segunda > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.terceira {
+    position: absolute;
+    background-image: url(3_resized.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-color: rgb(124, 89, 37);
+    top: 200%;
+    left: 200%;
+    transform: translate(-100%, -100%);
+}
+
+.terceira > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.quarta {
+    background-image: url(4_resized.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-color: rgb(124, 89, 37);
+}
+
+.quarta > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.quinta {
+    background-image: url(5_resized.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-color: rgb(124, 89, 37);
+}
+
+.quinta > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+
+.historia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: max-content;
+    width: 80vw;
+    padding: 20px;
+    background-color: #a69f92f1;
+    border: 1px black solid;
+    box-shadow: 1px 1px 10px ;
+}
+
+.historia > h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.historia > p {
+    margin: 30px;
+    text-align: justify;
+}
+
+.MISSAO {
+    position: relative;
+    height: max-content;
+    width: 80vw;
+    padding: 20px;
+    background-color: #a69f92f1;
+    border: 1px black solid;
+    box-shadow: 1px 1px 10px ;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MISSAO > h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.MISSAO > p {
+    margin: 30px;
+    text-align: justify;
+}
+
+.visao {
+    position: relative;
+    height: max-content;
+    width: 80vw;
+    padding: 20px;
+    background-color: #a69f92f1;
+    border: 1px black solid;
+    box-shadow: 1px 1px 10px ;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visao > h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.visao > p {
+    margin: 30px;
+    text-align: justify;
+}
+
+.diferenciais {
+    position: relative;
+    height: max-content;
+    width: 80vw;
+    padding: 20px;
+    background-color: #a69f92f1;
+    border: 1px black solid;
+    box-shadow: 1px 1px 10px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.diferenciais > h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.diferenciais > p {
+    margin: 30px;
+    text-align: justify;
+}
+
+.valores {
+    position: relative;
+    height: max-content;
+    width: 80vw;
+    padding: 20px;
+    background-color: #a69f92f1;
+    border: 1px black solid;
+    box-shadow: 1px 1px 10px ;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.valores > h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.valores > p {
+    margin: 30px;
+    text-align: justify;
+}
+
+.valores ul, h2 {
+    margin: 30px;
+}
+
+.develp {
+    position: absolute;
+    background-image: url(Develpfull.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 300%;
+    left: 200%;
+    transform: translate(-100%, -100%);
+}
+
+#obg {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+    top: 70%;
+
+}
+
+#coracao{
+    font-size: 10rem;
+    text-align: center;
+    position: relative;
+    top: 70%;
+    animation: coracao 2s linear 10s infinite normal forwards;
+}
+
+@keyframes coracao {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+    5%{
+        animation-timing-function: ease-out;
+		transform: scale(.85);
+    }
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
