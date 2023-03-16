@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 html p {
@@ -18,8 +19,6 @@ html p {
 html h1, h2 {
     color: #262223;
 }
-
-
 
 menu{
 padding: 10px; 
@@ -271,16 +270,15 @@ div {
     font-size: 3rem;
     text-align: center;
     position: relative;
-    color: aliceblue;
+    color:#a69f92f1;
     top: 70%;
-
 }
 
 #coracao{
     font-size: 10rem;
     text-align: center;
     position: relative;
-    top: 70%;
+    top: 65%;
     animation: coracao 2s linear 10s infinite normal forwards;
 }
 
